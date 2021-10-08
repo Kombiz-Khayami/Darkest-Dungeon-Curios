@@ -1,16 +1,24 @@
 <html>
 <head>
 <title>Kombiz Site</title>
+<style>
+    .wrapper {
+    display: flex;
+}
 
+.wrapper > div {
+    flex: 1;
+}
+</style>
 </head>
 <body>
 <h1>Crimson Court Curios</h1>
-<div>
-    <div><!-- Name and image of curio -->
+<div class="wrapper">
+    <div> <!-- Name and image of curio -->
         <div>Bloodflowers</div>
         <div><img src="https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/e/e0/Bloodflowers.png/revision/latest/scale-to-width-down/164?cb=20170622074522"></div>
     </div>
-    <div><!-- Out Come if nothing added -->
+    <div class="wrapper"><!-- Out Come if nothing added -->
         <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
         <div>
             8.5% Stress +15. The blossoms reek of death, pestilence and unfathomable nightmares!
@@ -23,7 +31,7 @@
 
 
     </div>
-    <div> <!-- Out Come if something is added -->
+    <div class="wrapper"> <!-- Out Come if something is added -->
         <div><img src="https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/c/cb/The_Blood.png/revision/latest/scale-to-width-down/40?cb=20170621050127"></div> <!-- Thing added--> 
         <div>The flowers surge with growth! But the blood invites no other occurence.</div><!-- What happens-->
         <div>Nothing</div>  <!-- Effect -->

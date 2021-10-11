@@ -2,20 +2,33 @@
 <head>
 <title>Kombiz Site</title>
 <style>
-    .wrapper {
+    .wrapper-main {
     display: flex;
+    flex:1;
 }
 
-.wrapper > div {
+.wrapper-heading {
+    display:flex;
+}
+
+.wrapper {
+    display: flex;
     flex: 1;
 }
 </style>
 </head>
 <body>
 <h1>Crimson Court Curios</h1>
-<div class="wrapper">
+<div class="wrapper-heading"> 
+    <p>Name</p>
+    <p>With out Cleansing</p>
+    <p>With Cleansing</p>
+</div>
+<div class="wrapper-main">
     <div> <!-- Name and image of curio -->
+        <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
         <div>Bloodflowers</div>
+    </a>
         <div><img src="https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/e/e0/Bloodflowers.png/revision/latest/scale-to-width-down/164?cb=20170622074522"></div>
     </div>
     <div class="wrapper"><!-- Out Come if nothing added -->

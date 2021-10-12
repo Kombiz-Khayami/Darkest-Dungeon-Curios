@@ -12,6 +12,7 @@
 .wrapper-curio {
     display: flex;
     flex-direction: column;
+    width: 180px;
 }
 
 .wrapper-main{
@@ -26,33 +27,40 @@
 .wrapper-without-cleansing {
     display: flex;
     align-items: center;
+    width: 560px;
 }
 
-/* .wrapper-items-cleansing{
-    display: flex;
-}  */
+.wrapper-items-cleansing{
+    /* margin-left: 15px; */
+} 
+
+.heading {
+    text-align: center;
+    
+}
 
 .items-cleansing {
     display: flex;
     gap: 10px;
+    width: 560px;
     align-items: center;
 }
 </style>
 </head>
 <body>
-<h1>Crimson Court Curios</h1>
+<div class="heading"><h1>Crimson Court Curios</h1></div>
 <div class="wrapper-heading"> 
-    <p>Name</p>
-    <p>With out Cleansing</p>
-    <p>With Cleansing</p>
+    <h3 style="width: 180px; text-align: center;">Name</h3>
+    <h3 style="width: 560px; text-align: center;">With out Cleansing</h3>
+    <h3 style="width: 560px; text-align: center;">With Cleansing</h3>
 </div>
 <div class="wrapper-main" >
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-                <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
                 Bloodflowers
             </a>
-                <img src="images/Bloodflowers.png">
+            <img src="images/Bloodflowers.png">
         </div>
 
 

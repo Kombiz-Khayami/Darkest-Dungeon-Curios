@@ -5,6 +5,8 @@
     .wrapper-curio {
     display: flex;
     flex:1;
+    align-items: center;
+    margin: 10px 0 30px 0;
 }
 
 .wrapper-main{
@@ -50,12 +52,12 @@
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
             <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
             <div>
-                8.5% Stress +15. The blossoms reek of death, pestilence and unfathomable nightmares!<br/>
-                23.1% Scouting. A map is nestled between the thorns and blossoms!<br/>
+                <img src="images/small-stress.icon.png"> 8.5% Stress +15. The blossoms reek of death, pestilence and unfathomable nightmares!<br/>
+                <img src="images/Scout_Ahead.png"> 23.1% Scouting. A map is nestled between the thorns and blossoms!<br/>
                 <img src="images/loot.icon.png"> 15.3% Any Loot x2 + 16.7% The Blood. The potting soil reveals its treasure!<br/>
                 <img src="images/disease.png"> 5.1% Disease: Tetanus. Thorns hook into the flesh, a cloying sap seeps into the hero's blood!<br/>
                 <img src="images/disease.png"> 2.5% Random Disease.<br/>
-                15.3% Nothing. Apparently these ghoulish flowers are harmless.
+                <img src="images/small.nothing.icon.png">15.3% Nothing. Apparently these ghoulish flowers are harmless.
             </div>
         </div>
 
@@ -63,19 +65,22 @@
         <div class="wrapper-items-cleansing"> <!-- Out Come if something is added -->
             <div class="items-cleansing">
                 <div><img src="images/The Blood.png"></div> <!-- Thing added--> 
+                <div><img src="images/small.nothing.icon.png">Nothing</div>
                 <div>The flowers surge with growth! But the blood invites no other occurence.</div><!-- What happens-->
-                <div>Nothing</div>
+                
             </div>  <!-- Effect -->
             <div class="items-cleansing">        
                 <div><img src="images/Holy_Water.png"></div> <!-- Thing added--> 
+                <div><img src="images/small-stress.icon.png">+15 stress</div> <!-- Effect -->
                 <div>The wilting gives off a noxious odour!</div> <!-- What happens-->
-                <div>+15 stress</div> <!-- Effect -->
+                
             </div>
 
             <div class="items-cleansing">
                 <div><img src="images/Shovel.png"></div> <!-- Thing added--> 
+                <div><img src="images/small-portrait.icon.png">Gems/Heirlooms x2 66.7% OR Any Loot x1 33.3%</div>  <!-- Effect -->
                 <div>Digging reveals loot!</div> <!-- What happens-->
-                <div>Gems/Heirlooms x2 66.7% OR Any Loot x1 33.3%</div>  <!-- Effect -->
+                
             </div>
         </div>        
     </div>
@@ -107,13 +112,13 @@
         <div class="wrapper-items-cleansing"> <!-- Out Come if something is added -->
             <div class="items-cleansing">
                 <div><img src="images/Holy_Water.png"></div> <!-- Thing added--> 
+                <div> <img src="images/Heal_stress.icon.png" /> Stress Heal 30</div>
                 <div>The purified liquid offers a surprising boon!</div><!-- What happens-->
-                <div>Stress Heal 30</div>
             </div>  <!-- Effect -->
             <div class="items-cleansing">        
                 <div><img src="images/Torch.png"></div> <!-- Thing added--> 
+                <div><img src="images/small-stress.icon.png"/>+5 stress</div> <!-- Effect -->
                 <div>Burning the blood stings the nostrils and turns the stomach</div> <!-- What happens-->
-                <div>+5 stress</div> <!-- Effect -->
             </div>
         </div>
     </div>

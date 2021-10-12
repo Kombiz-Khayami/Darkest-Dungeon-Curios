@@ -2,15 +2,20 @@
 <head>
 <title>Kombiz Site</title>
 <style>
-    .wrapper-curio {
+    .wrapper-row {
     display: flex;
     flex:1;
     align-items: center;
     margin: 10px 0 30px 0;
 }
 
+.wrapper-curio {
+    display: flex;
+    flex-direction: column;
+}
+
 .wrapper-main{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
 }
 
@@ -20,6 +25,7 @@
 
 .wrapper-without-cleansing {
     display: flex;
+    align-items: center;
 }
 
 /* .wrapper-items-cleansing{
@@ -29,6 +35,7 @@
 .items-cleansing {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 </style>
 </head>
@@ -40,12 +47,12 @@
     <p>With Cleansing</p>
 </div>
 <div class="wrapper-main" >
-    <div class="wrapper-curio">
-        <div> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
-            <div>Bloodflowers</div>
-        </a>
-            <div><img src="images/Bloodflowers.png"></div>
+    <div class="wrapper-row">
+        <div class="wrapper-curio"> <!-- Name and image of curio -->
+                <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+                Bloodflowers
+            </a>
+                <img src="images/Bloodflowers.png">
         </div>
 
 
@@ -64,22 +71,22 @@
 
         <div class="wrapper-items-cleansing"> <!-- Out Come if something is added -->
             <div class="items-cleansing">
-                <div><img src="images/The Blood.png"></div> <!-- Thing added--> 
-                <div><img src="images/small.nothing.icon.png">Nothing</div>
-                <div>The flowers surge with growth! But the blood invites no other occurence.</div><!-- What happens-->
+                <img src="images/The Blood.png"> <!-- Thing added--> 
+                <img src="images/small.nothing.icon.png">Nothing
+                The flowers surge with growth! But the blood invites no other occurence.<!-- What happens-->
                 
             </div>  <!-- Effect -->
             <div class="items-cleansing">        
-                <div><img src="images/Holy_Water.png"></div> <!-- Thing added--> 
-                <div><img src="images/small-stress.icon.png">+15 stress</div> <!-- Effect -->
-                <div>The wilting gives off a noxious odour!</div> <!-- What happens-->
+                <img src="images/Holy_Water.png"> <!-- Thing added--> 
+                <img src="images/small-stress.icon.png">+15 stress <!-- Effect -->
+                The wilting gives off a noxious odour! <!-- What happens-->
                 
             </div>
 
             <div class="items-cleansing">
-                <div><img src="images/Shovel.png"></div> <!-- Thing added--> 
-                <div><img src="images/small-portrait.icon.png">Gems/Heirlooms x2 66.7% OR Any Loot x1 33.3%</div>  <!-- Effect -->
-                <div>Digging reveals loot!</div> <!-- What happens-->
+                <img src="images/Shovel.png"> <!-- Thing added--> 
+                <img src="images/small-portrait.icon.png">Gems/Heirlooms x2 66.7% OR Any Loot x1 33.3%  <!-- Effect -->
+                Digging reveals loot! <!-- What happens-->
                 
             </div>
         </div>        
@@ -89,19 +96,18 @@
 
 
     
-    <div class="wrapper-curio">
-        <div> <!-- Name and image of curio -->
+    <div class="wrapper-row">
+        <div class="wrapper-curio"> <!-- Name and image of curio -->
             <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
-            <div>Damned Fountain</div>
+            Damned Fountain
         </a>
-            <div><img src="images/Damned_Fountain.png"></div>
+            <img src="images/Damned_Fountain.png">
         </div>
 
 
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
             <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
             <div>
-
                 <img src="images/bleed.png"> 60% Bleed. The hero's scars weep open when bathed in the crimson fluid!<br/>
                 <img src="images/disease.png"> 20% Disease: Crimson Curse. This bloody artifact invites ailment!<br/>
                 <img src="images/loot.icon.png"> <img src="images/bleed.png"> 20% Any Loot x2 + 16.7% Bleed. Treasure lies in the gore-filled basin!<br/>
@@ -111,14 +117,14 @@
 
         <div class="wrapper-items-cleansing"> <!-- Out Come if something is added -->
             <div class="items-cleansing">
-                <div><img src="images/Holy_Water.png"></div> <!-- Thing added--> 
-                <div> <img src="images/Heal_stress.icon.png" /> Stress Heal 30</div>
-                <div>The purified liquid offers a surprising boon!</div><!-- What happens-->
+                <img src="images/Holy_Water.png"> <!-- Thing added--> 
+                 <img src="images/Heal_stress.icon.png" /> Stress Heal 30
+                The purified liquid offers a surprising boon!<!-- What happens-->
             </div>  <!-- Effect -->
             <div class="items-cleansing">        
-                <div><img src="images/Torch.png"></div> <!-- Thing added--> 
-                <div><img src="images/small-stress.icon.png"/>+5 stress</div> <!-- Effect -->
-                <div>Burning the blood stings the nostrils and turns the stomach</div> <!-- What happens-->
+                <img src="images/Torch.png"> <!-- Thing added--> 
+                <img src="images/small-stress.icon.png"/>+5 stress <!-- Effect -->
+                Burning the blood stings the nostrils and turns the stomach <!-- What happens-->
             </div>
         </div>
     </div>

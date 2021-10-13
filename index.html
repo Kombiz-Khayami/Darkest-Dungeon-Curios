@@ -9,53 +9,35 @@
     margin: 10px 0 30px 0;
 }
 
-.wrapper-curio {
+.wrapper-curio {width: 180px;}
+.wrapper-without-cleansing {width: 560px;}
+.heading {text-align: center;}
+div.items-cleansing > img:first-child {width: 46px;}
+.wrapper-header {display:flex; text-align: center;}
+.wrapper-header h3 { width: 560px; }
+.wrapper-header h3:first-child { width: 180px; }
+
+.wrapper-main, .wrapper-curio{
     display: flex;
     flex-direction: column;
-    width: 180px;
 }
 
-.wrapper-main{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.wrapper-without-cleansing {
+.wrapper-without-cleansing, .items-cleansing, .item-without-cleansing{
     display: flex;
     align-items: center;
-    width: 560px;
-}
- .items-without-cleansing {
-    display: flex;
-    align-items: center;
-} 
-
-.heading {
-    text-align: center;   
 }
 
 .items-cleansing {
-    display: flex;
     gap: 10px;
     width: 560px;
-    align-items: center;
 }
 
-div.items-cleansing > img:first-child {
-    width: 46px;
-}
+
 
 /* div.items-cleansing > img:nth-child(n+2) {
     width: 302px;
 } */
 
-.wrapper-header {
-    display:flex;
-    text-align: center;
-}
-.wrapper-header h3 { width: 560px; }
-.wrapper-header h3:first-child { width: 180px; }
 
 </style>
 </head>
@@ -171,17 +153,33 @@ div.items-cleansing > img:first-child {
             <img src="images/Forgotten_Delicacies.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-            <div class="items-without-cleansing">
                 <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
                 <div>
-                    <img src="images/loot.icon.png"> 20% Gold/Supplies x4 + Supplies x1 + 25% The Blood. There are valuables scattered about the repast.<br />
-                    <img src="images/Quirk_neg.icon.png"> 20% Negative Quirk: Stress Eater. What a peculiar flavour...<br />
-                    <img src="images/blight.png"> 20% Blight. It is tainted!<br />
-                    <img src="images/disease.png"> 13.3% Disease: Crimson Curse. There is nothing but rot inside the seemingly fresh morsels! <br />
-                    <img src="images/disease.png"> 6.7% Random Disease. There is nothing but rot inside the seemingly fresh morsels!<br />
-                    <img src="images/small.nothing.icon.png">20% Nothing. There remains nothing worthy of your time.<br />
+                    <div class="item-without-cleansing">
+                        <img src="images/loot.icon.png"> 2
+                        0% Gold/Supplies x4 + Supplies x1 + 25% The Blood. There are valuables scattered about the repast.<br />
+                    </div>
+                    <div class="item-without-cleansing">
+                        <img src="images/Quirk_neg.icon.png"> 
+                        20% Negative Quirk: Stress Eater. What a peculiar flavour...<br />
+                    </div>
+                    <div class="item-without-cleansing">
+                        <img src="images/blight.png"> 
+                        20% Blight. It is tainted!<br />
+                    </div>
+                    <div class="item-without-cleansing">
+                        <img src="images/disease.png"> 
+                        13.3% Disease: Crimson Curse. There is nothing but rot inside the seemingly fresh morsels! <br />
+                    </div>
+                    <div class="item-without-cleansing">
+                        <img src="images/disease.png"> 
+                        6.7% Random Disease. There is nothing but rot inside the seemingly fresh morsels!<br />
+                    </div>
+                    <div class="item-without-cleansing">
+                        <img src="images/small.nothing.icon.png">
+                        20% Nothing. There remains nothing worthy of your time.<br />
+                    </div>
                 </div>
-            </div>
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">

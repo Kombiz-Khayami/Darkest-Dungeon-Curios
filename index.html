@@ -2,7 +2,7 @@
 <head>
 <title>Kombiz Site</title>
 <style>
-    .wrapper-row {
+.wrapper-row {
     display: flex;
     flex:1;
     align-items: center;
@@ -20,9 +20,6 @@
     flex-direction: column;
 }
 
-.wrapper-heading {
-    display:flex;
-}
 
 .wrapper-without-cleansing {
     display: flex;
@@ -30,13 +27,8 @@
     width: 560px;
 }
 
-.wrapper-items-cleansing{
-    /* margin-left: 15px; */
-} 
-
 .heading {
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .items-cleansing {
@@ -45,14 +37,30 @@
     width: 560px;
     align-items: center;
 }
+
+div.items-cleansing > img:first-child {
+    width: 46px;
+}
+
+/* div.items-cleansing > img:nth-child(n+2) {
+    width: 302px;
+} */
+
+.wrapper-header {
+    display:flex;
+    text-align: center;
+}
+.wrapper-header h3 { width: 560px; }
+.wrapper-header h3:first-child { width: 180px; }
+
 </style>
 </head>
 <body>
 <div class="heading"><h1>Crimson Court Curios</h1></div>
-<div class="wrapper-heading"> 
-    <h3 style="width: 180px; text-align: center;">Name</h3>
-    <h3 style="width: 560px; text-align: center;">With out Cleansing</h3>
-    <h3 style="width: 560px; text-align: center;">With Cleansing</h3>
+<div class="wrapper-header"> 
+    <h3>Name</h3>
+    <h3>With out Cleansing</h3>
+    <h3>With Cleansing</h3>
 </div>
 <div class="wrapper-main" >
     <div class="wrapper-row">
@@ -82,20 +90,17 @@
                 <img src="images/The Blood.png"> <!-- Thing added--> 
                 <img src="images/small.nothing.icon.png">Nothing
                 The flowers surge with growth! But the blood invites no other occurence.<!-- What happens-->
-                
             </div>  <!-- Effect -->
             <div class="items-cleansing">        
                 <img src="images/Holy_Water.png"> <!-- Thing added--> 
-                <img src="images/small-stress.icon.png">+15 stress <!-- Effect -->
+                <img src="images/small-stress.icon.png" >+15 stress <!-- Effect -->
                 The wilting gives off a noxious odour! <!-- What happens-->
-                
             </div>
 
             <div class="items-cleansing">
                 <img src="images/Shovel.png"> <!-- Thing added--> 
                 <img src="images/small-portrait.icon.png">Gems/Heirlooms x2 66.7% OR Any Loot x1 33.3%  <!-- Effect -->
                 Digging reveals loot! <!-- What happens-->
-                
             </div>
         </div>        
     </div>
@@ -126,7 +131,7 @@
         <div class="wrapper-items-cleansing"> <!-- Out Come if something is added -->
             <div class="items-cleansing">
                 <img src="images/Holy_Water.png"> <!-- Thing added--> 
-                 <img src="images/Heal_stress.icon.png" /> Stress Heal 30
+                <img src="images/Heal_stress.icon.png" /> Stress Heal 30
                 The purified liquid offers a surprising boon!<!-- What happens-->
             </div>  <!-- Effect -->
             <div class="items-cleansing">        

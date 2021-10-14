@@ -13,8 +13,8 @@
 .wrapper-without-cleansing {width: 560px;}
 .heading {text-align: center; color: #C9B569;}
 div.items-cleansing > img:first-child {width: 46px;}
-.wrapper-header {display:flex; text-align: center; color: #C9B569;}
-.wrapper-header h3 { width: 560px; }
+.wrapper-header {display:flex; text-align: center; color: #C9B569; align-items: center;} 
+.wrapper-header > .without { width: 560px; align-items: center; margin-left: 100px;}
 .wrapper-header h3:first-child { width: 180px; }
 .item-without-cleansing { gap: 7px; }
 
@@ -45,7 +45,13 @@ body {
 /* div.items-cleansing > img:nth-child(n+2) {
     width: 302px;
 } */
-
+.red-cross{
+    width: 40px;
+    height: 40px;
+ }
+.without{
+    display: flex;
+}
 
 </style>
 </head>
@@ -53,19 +59,23 @@ body {
 <div class="heading"><h1>Crimson Court Curios</h1></div>
 <div class="wrapper-header"> 
     <h3>Name</h3>
-    <h3>With out Cleansing</h3>
+    <div class="without">
+        <img src="https://arnaud.rocks/darkest-companion/icons/redCross.png" class="red-cross">
+        <h3>With out Cleansing</h3>
+        <img src="https://arnaud.rocks/darkest-companion/icons/redCross.png" class="red-cross">
+    </div>
     <h3>With Cleansing</h3>
 </div>
 <div class="wrapper-main" >
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Bloodflowers
-            </a>
+            
             <img src="images/Bloodflowers.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-            <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+            
             <div>
                 <img src="images/small-stress.icon.png"> 8.5% Stress +15. The blossoms reek of death, pestilence and unfathomable nightmares!<br/>
                 <img src="images/Scout_Ahead.png"> 23.1% Scouting. A map is nestled between the thorns and blossoms!<br/>
@@ -98,13 +108,13 @@ body {
     
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
             Damned Fountain
-        </a>
+        
             <img src="images/Damned_Fountain.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-            <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+            
             <div>
                 <img src="images/bleed.png"> 60% Bleed. The hero's scars weep open when bathed in the crimson fluid!<br/>
                 <img src="images/disease.png"> 20% Disease: Crimson Curse. This bloody artifact invites ailment!<br/>
@@ -128,13 +138,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Disturbing Diversion
-        </a>
+        
             <img src="images/Disturbing_Diversion.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-            <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+            
             <div>
                     <img src="images/small-stress.icon.png"> 40% Stress +25. You picture debauched and bloody games... <br/>
                     <img src="images/Quirk_pos.icon.png">  15% Random Positive Quirk. Suppressed desires awaken! <br/>
@@ -155,13 +165,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Forgotten Delicacies
-        </a>
+        
             <img src="images/Forgotten_Delicacies.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
                     <div class="item-without-cleansing">
                         <img src="images/loot.icon.png"> 
@@ -196,13 +206,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Hooded Shrew
-        </a>
+        
             <img src="images/Hooded_Shrew.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
                     <div class="item-without-cleansing">
                         <img src="images/small-stress.icon.png"> 
@@ -237,13 +247,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Wizened Shrew
-        </a>
+        
             <img src="images/Wizened_Shrew.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
                     <div class="item-without-cleansing">
                         <img src="images/disease.png"> 
@@ -273,13 +283,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Pile of Strange Bones
-        </a>
+        
             <img src="images/Pile_of_Strange_Bones.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
                     <div class="item-without-cleansing">
                         <img src="images/bleed.png"> 
@@ -318,13 +328,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Throbbing Coccoons
-        </a>
+        
             <img src="images/Throbbing_Coccoons.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
                     <div class="item-without-cleansing">
                         <img src="images/Summon.curio_tracker.png"> 
@@ -350,13 +360,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Thronging Hive
-        </a>
+        
             <img src="images/Thronging_Hive.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
 
                     <div class="item-without-cleansing">
@@ -380,13 +390,13 @@ body {
 
     <div class="wrapper-row">
         <div class="wrapper-curio"> <!-- Name and image of curio -->
-            <a href="https://www.etsy.com/listing/919622588/hollow-knight-silksong-hornet-fancy?ref=cart"> 
+            
                 Hooded Shrew
-        </a>
+        
             <img src="images/Wine_Crate.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                <div><img src="https://arnaud.rocks/darkest-companion/icons/redCross.png"></div>
+                
                 <div>
                     <div class="item-without-cleansing">
                         <img src="images/Quirk_neg.icon.png"> 

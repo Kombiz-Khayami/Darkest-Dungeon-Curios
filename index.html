@@ -9,14 +9,26 @@
     margin: 10px 0 30px 0;
 }
 
+
+
+.wrapper-without-cleansing {
+    width: 560px; 
+    margin-right: 25px;  
+    gap: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
 .wrapper-curio {width: 180px; margin-right:25px;}
-.wrapper-without-cleansing {width: 560px; margin-right: 25px;}
 .heading {text-align: center; color: #C9B569;}
 div.items-cleansing > img:first-child {width: 46px;}
 .wrapper-header {display:flex; text-align: center; color: #C9B569; align-items: center;} 
 .wrapper-header > .without { width: 560px; align-items: center; margin-left: 160px;}
 .wrapper-header h3:first-child { width: 180px; }
-.item-without-cleansing { gap: 7px; }
+
 
 
 .items-cleansing {
@@ -29,7 +41,7 @@ div.items-cleansing > img:first-child {width: 46px;}
     flex-direction: column;
 }
 
-.wrapper-without-cleansing, .items-cleansing, .item-without-cleansing{
+ .items-cleansing, .item-without-cleansing{
     display: flex;
     align-items: center;
 }
@@ -80,14 +92,30 @@ body {
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
             
-            <div>
-                <img src="images/small-stress.icon.png"> 8.5% Stress +15. The blossoms reek of death, pestilence and unfathomable nightmares!<br/>
-                <img src="images/Scout_Ahead.png"> 23.1% Scouting. A map is nestled between the thorns and blossoms!<br/>
-                <img src="images/loot.icon.png"> 15.3% Any Loot x2 + 16.7% The Blood. The potting soil reveals its treasure!<br/>
-                <img src="images/disease.png"> 5.1% Disease: Tetanus. Thorns hook into the flesh, a cloying sap seeps into the hero's blood!<br/>
-                <img src="images/disease.png"> 2.5% Random Disease.<br/>
+                <div class="item-without-cleansing">
+                <img src="images/small-stress.icon.png"> 8.5% Stress +15. The blossoms reek of death, pestilence and unfathomable nightmares!
+                </div>
+
+                <div class="item-without-cleansing">
+                <img src="images/Scout_Ahead.png"> 23.1% Scouting. A map is nestled between the thorns and blossoms!
+                </div>
+
+                <div class="item-without-cleansing">
+                <img src="images/loot.icon.png"> 15.3% Any Loot x2 + 16.7% The Blood. The potting soil reveals its treasure!
+                </div>
+
+                <div class="item-without-cleansing">
+                <img src="images/disease.png"> 5.1% Disease: Tetanus. Thorns hook into the flesh, a cloying sap seeps into the hero's blood!
+                </div>
+
+                <div class="item-without-cleansing">
+                <img src="images/disease.png"> 2.5% Random Disease.
+                </div>
+
+                <div class="item-without-cleansing">
                 <img src="images/small.nothing.icon.png">15.3% Nothing. Apparently these ghoulish flowers are harmless.
-            </div>
+                </div>
+            
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -119,11 +147,17 @@ body {
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
             
-            <div>
-                <img src="images/bleed.png"> 60% Bleed. The hero's scars weep open when bathed in the crimson fluid!<br/>
-                <img src="images/disease.png"> 20% Disease: Crimson Curse. This bloody artifact invites ailment!<br/>
-                <img src="images/loot.icon.png"> <img src="images/bleed.png"> 20% Any Loot x2 + 16.7% Bleed. Treasure lies in the gore-filled basin!<br/>
-            </div>
+        
+                <div class="item-without-cleansing">
+                    <img src="images/bleed.png"> 60% Bleed. The hero's scars weep open when bathed in the crimson fluid!
+                </div>
+                <div class="item-without-cleansing">
+                    <img src="images/disease.png"> 20% Disease: Crimson Curse. This bloody artifact invites ailment!
+                </div>
+                <div class="item-without-cleansing">
+                    <img src="images/loot.icon.png"> <img src="images/bleed.png"> 20% Any Loot x2 + 16.7% Bleed. Treasure lies in the gore-filled basin!
+                </div>
+            
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -149,13 +183,22 @@ body {
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
             
-            <div>
-                    <img src="images/small-stress.icon.png"> 40% Stress +25. You picture debauched and bloody games... <br/>
-                    <img src="images/Quirk_pos.icon.png">  15% Random Positive Quirk. Suppressed desires awaken! <br/>
-                    <img src="images/Quirk_neg.icon.png"> 15% Random Negative Quirk. Suppressed desires awaken! <br/>
-                    <img src="images/loot.icon.png"> 10% Any Loot x2 + 16.7% The Blood x2. Wagers long forgotten. <br/>
-                    <img src="images/small.nothing.icon.png"> 20% Nothing. The remains yield nothing. <br/>
+            <div class="item-without-cleansing">
+                <img src="images/small-stress.icon.png"> 40% Stress +25. You picture debauched and bloody games...  
             </div>
+            <div class="item-without-cleansing">
+                <img src="images/Quirk_pos.icon.png">  15% Random Positive Quirk. Suppressed desires awaken!  
+            </div>
+            <div class="item-without-cleansing">
+                <img src="images/Quirk_neg.icon.png"> 15% Random Negative Quirk. Suppressed desires awaken!  
+            </div>
+            <div class="item-without-cleansing">
+                <img src="images/loot.icon.png"> 10% Any Loot x2 + 16.7% The Blood x2. Wagers long forgotten.  
+            </div>
+            <div class="item-without-cleansing">
+                <img src="images/small.nothing.icon.png"> 20% Nothing. The remains yield nothing.  
+            </div>
+                    
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -175,8 +218,6 @@ body {
             <img src="images/Forgotten_Delicacies.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                
-                <div>
                     <div class="item-without-cleansing">
                         <img src="images/loot.icon.png"> 
                         20% Gold/Supplies x4 + Supplies x1 + 25% The Blood. There are valuables scattered about the repast.
@@ -196,7 +237,6 @@ body {
                     <div class="item-without-cleansing">
                         <img src="images/small.nothing.icon.png">20% Nothing. There remains nothing worthy of your time.
                     </div>
-                </div>
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -217,7 +257,7 @@ body {
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
                 
-                <div>
+                
                     <div class="item-without-cleansing">
                         <img src="images/small-stress.icon.png"> 
                         42.8% Stress +15. The urchin's arcane mutterings stir deep terror within!
@@ -231,7 +271,7 @@ body {
                     <div class="item-without-cleansing">
                         <img src="images/small.nothing.icon.png">  14.2% Nothing. The supplicant does not seem to notice the hero.
                     </div>
-                </div>
+                
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -258,7 +298,7 @@ body {
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
                 
-                <div>
+                
                     <div class="item-without-cleansing">
                         <img src="images/disease.png"> 
                         7.6% Random Disease. The shrew's filthy grasp is like iron and its nails rake the hero!
@@ -271,9 +311,8 @@ body {
                     </div>
                     <div class="item-without-cleansing">
                         <img src="images/small.nothing.icon.png">  25% Nothing. The supplicant is incoherent and penniless. Harmless.
-
                     </div>
-                </div>
+                
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -293,8 +332,6 @@ body {
             <img src="images/Pile_of_Strange_Bones.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                
-                <div>
                     <div class="item-without-cleansing">
                         <img src="images/bleed.png"> 
                         50% Bleed. An insectoid mandible pierces the hero's skin!
@@ -308,7 +345,6 @@ body {
                     <div class="item-without-cleansing">
                         <img src="images/small.nothing.icon.png">  20% Nothing. These remains hold no danger nor anything of value either.
                     </div>
-                </div>
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -338,8 +374,6 @@ body {
             <img src="images/Throbbing_Coccoons.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                
-                <div>
                     <div class="item-without-cleansing">
                         <img src="images/Summon.curio_tracker.png"> 
                         75% Summon a Supplicant, Sycophant & Esquire. Gestating creatures burst forth from the eggs!
@@ -349,8 +383,7 @@ body {
                     </div>
                     <div class="item-without-cleansing">
                         <img src="images/small.nothing.icon.png">  12.5% Nothing. Disgusting viscera... and not much else.
-                    </div>
-                </div>
+                    </div>     
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -368,9 +401,6 @@ body {
             <img src="images/Thronging_Hive.png">
         </div>
         <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                
-                <div>
-
                     <div class="item-without-cleansing">
                         <img src="images/loot.icon.png">75% Any Loot x2 + 20% Blood. The hive holds valuables!
                     </div>
@@ -378,7 +408,7 @@ body {
                         <img src="images/bleed.png"> 
                         25% Bleed. The hive's inhabitants sting and bite the hero's exposed flesh!
                     </div>
-                </div>
+                
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">
@@ -395,9 +425,7 @@ body {
                 Wine Crate
             <img src="images/Wine_Crate.png">
         </div>
-        <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
-                
-                <div>
+        <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->             
                     <div class="item-without-cleansing">
                         <img src="images/Quirk_neg.icon.png"> 
                         16.7% Negative Quirk: Tippler. A sip uncorks a disturbing new habit!
@@ -418,8 +446,7 @@ body {
                     </div>
                     <div class="item-without-cleansing">
                         <img src="images/small.nothing.icon.png">  8.3% Nothing. Nothing but broken glass and wood splinters.
-                    </div>
-                </div>
+                    </div>              
         </div>
         <div> <!-- Out Come if something is added -->
             <div class="items-cleansing">

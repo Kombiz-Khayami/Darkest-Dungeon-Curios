@@ -2,6 +2,9 @@
 <head>
 <title>Kombiz Site</title>
 <style>
+    .more{
+        visibility: hidden;
+    }
 .wrapper-row {
     display: flex;
     flex:1;
@@ -70,9 +73,13 @@ body {
 }
 
 </style>
+
+
+
 </head>
 <body>
 <div class="heading"><h1>Crimson Court Curios</h1></div>
+<p>Show Others</p>
 <div class="wrapper-header"> 
     <h3>Name</h3>
     <div class="without">
@@ -462,8 +469,56 @@ body {
         </div>
     </div>
 </div>
+
+
+
+
+<div class="more" >
+    <div class="wrapper-row">
+        <div class="wrapper-curio"> <!-- Name and image of curio -->
+            
+            Gleaming Shards
+        
+            <img src="images/Gleaming_Shards.png">
+        </div>
+        <div class="wrapper-without-cleansing"><!-- Out Come if nothing added -->
+            
+                
+                <div class="item-without-cleansing">
+                    <img src="https://arnaud.rocks/darkest-companion/icons/redCross.png">
+                </div>
+            
+        </div>
+        <div> <!-- Out Come if something is added -->
+            <div class="items-cleansing">
+                <img src="images/Shard.png" /> Shards x5-15.
+                Glittering crystals spill onto the ground.<!-- What happens-->
+            </div>  <!-- Effect -->
+        </div>
+    </div>
+</div>
 </body>
 <footer>
     
 </footer>
+<script>
+    const m = document.querySelector('p')
+    const para1 = document.querySelector('div.wrapper-main');
+    const para2 = document.querySelector('div.more')
+
+    m.addEventListener('click', show);
+    
+    function show() {
+        if (para1.style.visibility === "visible"){
+            para2.style.visibility = "visible";
+            para1.style.visibility = "hidden";
+        }
+        else{
+            para1.style.visibility = "visible";
+            para2.style.visibility = "hidden";
+        }
+        
+    }
+    
+    </script>
 </html>

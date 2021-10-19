@@ -1,22 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 
-const myStyle = {
-  
-
-}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          hello, world
-        </p>
-      </header>
-    </div>
+  return ( 
+    <><div class="heading"><h1>Crimson Court Curios</h1></div>
+    <div class="wrapper-header"> 
+        <h3>Name</h3>
+        <div class="without">
+            
+            <h3>With out Cleansing</h3>
+            
+        </div>
+        <h3>With Cleansing</h3>
+    </div></>
   );
 }
 
 export default App;
+
+
+// 

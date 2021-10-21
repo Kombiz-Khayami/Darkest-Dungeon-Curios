@@ -2,59 +2,59 @@
 {
   icons : {    
       nothing: {
-        name: '',
+        name: 'Nothing',
         path: require('./images/small.nothing.icon.png').default
       },
       bleed: {
-        name: '',
+        name: 'Bleed',
         path: require('./images/bleed.png').default
       },
       blight: {
-        name: '',
+        name: 'Blight',
         path: require('./images/blight.png').default
       },
       quirkNeg: {
-        name: '',
+        name: 'Negative Quirk',
         path: require('./images/small.Quirk-neg.icon.png').default
       },
       quirkPos: {
-        name: '',
+        name: 'Positive Quirk',
         path: require('./images/small.Quirk-pos.icon.png').default
       },
       stress: {
-        name: '',
+        name: 'Stress',
         path: require('./images/small-stress.icon.png').default
       },
       stressHeal: {
-        name: '',
+        name: 'Stress Heal',
         path: require('./images/Heal_stress.icon.png').default
       },
       portrait: {
-        name: '',
+        name: 'Heirloom',
         path: require('./images/small-portrait.icon.png').default
       },
       scout: {
-        name: '',
+        name: 'Scouting',
         path: require('./images/Scout_Ahead.png').default
       },
       loot: {
-        name: '',
+        name: 'Loot',
         path: require('./images/loot.icon.png').default
       },
       disease: {
-        name: '',
+        name: 'Disease',
         path: require('./images/disease.png').default
       },
       firewood: {
-        name: '',
+        name: 'Firewood',
         path: require('./images/firewood.png').default
       },
       summon: {
-        name: '',
+        name: 'Summoning',
         path: require('./images/summon.png').default
       },
       theBlood: {
-        name: '',
+        name: 'The Blood',
         path: require('./images/The_Blood.png').default
       } 
   },

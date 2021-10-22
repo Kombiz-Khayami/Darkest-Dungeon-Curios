@@ -99,7 +99,11 @@
     wineCrate: {
       name: '',
       path: require('./images/Wine_Crate.png').default
-    }
+    },
+    gleamingShards: {
+        name: '',
+        path: require('./images/Gleaming_Shards.png').default
+      }
 
   },
 
@@ -128,6 +132,10 @@
       name: '',
       path: require('./images/Holy_Water.png').default
     },
+    shard: {
+        name: '',
+        path: require('./images/Shard.png').default
+      }
 
   }
 }
